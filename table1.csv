@@ -1,0 +1,24 @@
+Strain,Serogroup,Source,Year of isolation,Virulence gene profile
+ED017,O26,HUS,1989,eae vtx1
+ED075,O26,Diarrheal feces,1990,eae vtx1
+ED180,O26,HUS,1994,eae vtx2
+ED195,O26,HUS,1994,eae vtx1
+ED392,O26,Diarrheal feces,1998,eae vtx1
+ED411,O26,HUS,1999,eae vtx2
+ED423,O26,Diarrheal feces,1999,eae vtx1
+ED654,O26,HUS,2007,eae vtx2
+ED669,O26,HUS,2008,eae vtx1
+ED676,O26,HUS,2008,eae vtx2
+ED729,O26,Diarrheal feces,2010,eae vtx1
+ED766,O26,HUS,2010,eae vtx2
+ED657,O145,HUS,2007,eae vtx2
+ED603,O121,HUS,2004,eae vtx2
+ED073,O111,Diarrheal feces,1990,eae vtx1
+ED082,O111,HUS,1990,eae vtx1
+ED142,O111,HUS,1992,eae vtx1 vtx2
+ED178,O111,HUS,1994,eae vtx1 vtx2
+ED608,O111,HUS,2005,eae vtx1 vtx2
+ED664,O111,HUS,2007,eae vtx2
+ED672,O111,HUS,2008,eae vtx1 vtx2
+ED287,O103,Bovine,1998,eae vtx1
+ED728,O103,Bloody diarrheal feces,2010,vtx1
