@@ -1,0 +1,46 @@
+Strain,Serogroup,Source,Year of isolation,Virulence gene profile,Serotype,Phylotype,MLST
+ED017,O26,HUS,1989,eae vtx1,,,
+ED075,O26,Diarrheal feces,1990,eae vtx1,,,
+ED180,O26,HUS,1994,eae vtx2,,,
+ED195,O26,HUS,1994,eae vtx1,,,
+ED392,O26,Diarrheal feces,1998,eae vtx1,,,
+ED411,O26,HUS,1999,eae vtx2,,,
+ED423,O26,Diarrheal feces,1999,eae vtx1,,,
+ED654,O26,HUS,2007,eae vtx2,,,
+ED669,O26,HUS,2008,eae vtx1,,,
+ED676,O26,HUS,2008,eae vtx2,,,
+ED729,O26,Diarrheal feces,2010,eae vtx1,,,
+ED766,O26,HUS,2010,eae vtx2,,,
+ED657,O145,HUS,2007,eae vtx2,,,
+ED603,O121,HUS,2004,eae vtx2,,,
+ED073,O111,Diarrheal feces,1990,eae vtx1,,,
+ED082,O111,HUS,1990,eae vtx1,,,
+ED142,O111,HUS,1992,eae vtx1 vtx2,,,
+ED178,O111,HUS,1994,eae vtx1 vtx2,,,
+ED608,O111,HUS,2005,eae vtx1 vtx2,,,
+ED664,O111,HUS,2007,eae vtx2,,,
+ED672,O111,HUS,2008,eae vtx1 vtx2,,,
+ED287,O103,Bovine,1998,eae vtx1,,,
+ED728,O103,Bloody diarrheal feces,2010,vtx1,,,
+M856,,Human diarrhea,2008,,ONT:H6,B2,ST583
+M858,,Human diarrhea,2008,,O125:H6,B2,ST583
+M859,,Human diarrhea,2009,,O113:H6,B2,ST121
+M884,,Human diarrhea,2011,,O96:H7,B2,ST28
+M885,,Human diarrhea,2011,,O132:H34,B2,ST582
+M900,,Human diarrhea,2012,,O145:H34,B2,ST722
+BCW5711,,Human diarrhea,2012,,O63:H6,B2,ST583
+BCW5746,,Human diarrhea,2012,,O63:H6,B2,ST583
+BCW5743,,Human diarrhea,2012,,O63:H6,B2,ST583
+BCW5739,,Human diarrhea,2012,,O63:H6,B2,ST583
+BCW5717,,Human diarrhea,2012,,O63:H6,B2,ST583
+ED360,,Pigeon,1997,,O45:H2,B1,ST20
+ED361,,Pigeon,1997,,O75:H2,B1,ST20
+ED363,,Pigeon,1997,,O4:H2,B1,UNK
+ED366,,Pigeon,1997,,ONT:H2,B1,ST2685
+ED369,,Pigeon,1997,,O45:H2,B1,ST20
+ED377,,Pigeon,1997,,O4:H2,B1,UNK
+ED430,,Pigeon,2000,,O45:H2,B1,ST20
+ED444,,Pigeon,2000,,O128:H2,B1,ST20
+EF453,,HUS,2013,,O80:H2,B1,ST301
+EF467,,HUS,2013,,O26:H11,B1,ST21
+EF476,,HUS,2014,,O55:H9,B1,ST301
