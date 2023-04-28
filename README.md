@@ -70,8 +70,18 @@ nextflow run snvphyl.nf --outdir ./results -c snvphyl.config --refgenome ../refe
 
 # 9. Download table of metadata
 
-Downloaded `table1.csv` from <https://wwwnc.cdc.gov/eid/article/22/12/16-0017_article>.
+Downloaded `table1.csv` and `table2.csv` from <https://wwwnc.cdc.gov/eid/article/22/12/16-0017_article>. Split first column of Table 2 into "Source" and "Strain". Got read of unneeded columns in table2 (which caused issues in CSV format).
+
+Concatenated tables into `table1_2.csv` using Python:
+
+```python
+import pandas as pd
+df1 = pd.read_csv('table1.csv')
+df2 = pd.read_csv('table2.csv')
+df = pd.concat([df1,df2])
+df.to_csv('table1_2.csv', index=False)
+```
 
 # 10. Upload data to IRIDA
 
-I uploaded sequence reads to IRIDA.
+I uploaded sequence reads to IRIDA and ran the AMR Detection and ECTyper pipelines. I exported the metadata table.
