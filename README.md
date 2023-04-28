@@ -1,4 +1,12 @@
-Data from <https://wwwnc.cdc.gov/eid/article/22/12/16-0017_article>.
+Data from <https://wwwnc.cdc.gov/eid/article/22/12/16-0017_article>. Specifically, the reads are from this BioProject <https://www.ncbi.nlm.nih.gov/bioproject/PRJEB11886/>. The reference file from the tree is <https://www.ncbi.nlm.nih.gov/nuccore/NC_002695.2?report=fasta>.
+
+Files
+* SRA and BioSample mapping: [name-mapping.txt](name-mapping.txt)
+* Phylogenetic tree: [snvphyl-results/phylogeneticTree.newick](snvphyl-results/phylogeneticTree.newick)
+* Other SNVPhyl results files: [snvphyl-results/](snvphyl-results)
+* Table 1 from paper: [table1.csv](table1.csv)
+
+The below information is the steps for downloading and pre-processing reads.
 
 # 1. Download run info file
 
