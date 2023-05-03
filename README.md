@@ -94,3 +94,15 @@ df.to_csv('table1_2.csv', index=False)
 # 10. Upload data to IRIDA
 
 I uploaded sequence reads to IRIDA and ran the AMR Detection and ECTyper pipelines. I exported the metadata table.
+
+# 11. Get BioProject metadata
+
+```bash
+esearch -db bioproject -query "PRJEB11886" | elink -target biosample | efetch -format docsum > /tmp/x.xml
+
+# Extract column headers
+cat /tmp/x.xml | xtract -pattern DocumentSummary -block Attribute -element Attribute@attribute_name | head -n 1 > bioproject_metadata.tsv
+
+# Extract data
+cat /tmp/x.xml | xtract -pattern DocumentSummary -block Attribute -element Attribute >> bioproject_metadata.tsv
+```
